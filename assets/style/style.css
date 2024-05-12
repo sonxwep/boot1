@@ -1,0 +1,126 @@
+@import url("./font.css");
+*{
+    font-family: "Manrope-s";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Manrope-s", sans-serif;  
+}
+
+header .nav-link{
+    font-size: 22px;   
+}
+header .navbar-brand{
+    font-size: 25px;
+}
+.section-slider .container .carousel-inner img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+.section-uslugi .container .colonki{
+    display: flex;
+    justify-content: space-between;
+}
+.section-team .container .line1, .line2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section-team .container .z{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.section-team img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.section-uslugi .container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+}
+.section-galery h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+}
+.section-news h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+}
+.section-auth h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+}
+.section-news .container{
+    display: flex;
+    gap: 10px;
+}
+.section-team .container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+    color: rgb(255, 255, 255);
+}
+.container2{
+    padding: 50px 0 30px 0;
+}
+.container2 .progress{
+    margin: 10px 0 5px 0;
+}
+.section-team{
+    background-image: url(https://sbbusiness.ru/upload/resize_cache/iblock/c1e/540_345_2/c1e476d99e5ec737010276309aec21f7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.section-uslugi .card img{
+    height: 300px;
+}
+.section-uslugi .card p{
+font-size: 18px;
+text-align: left;
+width: 280px;
+}
+.section-uslugi .colonki {
+margin-bottom: 40px;
+    }
+.section-team .card p{
+    font-size: 18px;
+    text-align: center;
+    width: 280px;
+}
+.section-team .card .icons{
+    font-size: 18px;
+    text-align: center;
+}
+.section-galery img{
+    height: 230px;
+    width: 230px;
+    object-fit: cover;
+}
+.form-control {
+    display: block;
+    width: 700px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+}
+
+
+
